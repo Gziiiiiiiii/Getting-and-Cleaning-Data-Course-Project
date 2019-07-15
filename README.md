@@ -8,7 +8,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ## Source Data
 More details on xperiment and data can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-## How the Code Works
+## How `run_analysis.R` Works
 ### 1. Merges the training and the test sets to create one data set.
 - download zip file from url and unzip
 - use `read.table()` function to load Train and Test txts into R
